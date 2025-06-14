@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
@@ -7,7 +8,7 @@ const HeroSection: FC = () => {
   return (
     <section id="product" className="min-h-screen flex items-center pt-24 pb-12 md:pt-32 md:pb-20 bg-gradient-to-br from-background to-card">
       <div className="container mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
-        <div className="relative aspect-video md:aspect-[4/3] max-w-xl mx-auto md:mx-0 rounded-xl overflow-hidden shadow-2xl animate-fadeIn" data-ai-hint="abstract 3d shapes">
+        <div className="relative aspect-video md:aspect-[4/3] max-w-xl mx-auto md:mx-0 rounded-xl overflow-hidden shadow-2xl animate-fadeIn" data-ai-hint="abstract geometry">
           <Image
             src="https://placehold.co/600x400.png"
             alt="Abstract 3D Art for NORA"
@@ -15,6 +16,7 @@ const HeroSection: FC = () => {
             objectFit="cover"
             priority
             className="rounded-xl"
+            data-ai-hint="abstract geometry"
           />
         </div>
         <div className="text-center md:text-left animate-slideInUp">

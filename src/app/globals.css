@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,16 +14,16 @@
     --popover: 220 10% 15%;
     --popover-foreground: 0 0% 93%;
 
-    --primary: 43 74% 49%;    /* #E4B33D - Gold/Yellow */
+    --primary: 36 85% 60%;    /* #f0ac44 - New Gold/Yellow */
     --primary-foreground: 220 13% 10%; /* #181A1D - Dark text for primary buttons */
 
-    --secondary: 43 60% 35%; /* #8C6F2A - A darker shade of gold/brownish */
+    --secondary: 36 70% 45%; /* A darker shade of the new gold/brownish */
     --secondary-foreground: 0 0% 93%;
 
     --muted: 220 10% 25%; /* #383B42 */
     --muted-foreground: 220 5% 65%; /* #9FA3AB */
 
-    --accent: 43 74% 59%;      /* #EAC562 - Lighter gold for highlights/hovers */
+    --accent: 36 85% 65%;      /* Lighter/brighter new gold for highlights/hovers */
     --accent-foreground: 220 13% 10%; /* Dark text on accent */
 
     --destructive: 0 63% 51%; /* #D93B3B */
@@ -30,7 +31,7 @@
 
     --border: 220 10% 20%;      /* #2B2E33 */
     --input: 220 10% 18%;        /* #26292E - Darker input background */
-    --ring: 43 74% 49%;        /* Primary color for focus ring */
+    --ring: 36 85% 60%;        /* New primary color for focus ring */
 
     --radius: 0.75rem; /* Rounded corners */
 
@@ -43,12 +44,12 @@
     /* Sidebar variables (can keep defaults or adjust if sidebar is used) */
     --sidebar-background: 220 13% 11%;
     --sidebar-foreground: 0 0% 93%;
-    --sidebar-primary: 43 74% 49%;
+    --sidebar-primary: 36 85% 60%;
     --sidebar-primary-foreground: 220 13% 10%;
-    --sidebar-accent: 43 74% 59%;
+    --sidebar-accent: 36 85% 65%;
     --sidebar-accent-foreground: 220 13% 10%;
     --sidebar-border: 220 10% 20%;
-    --sidebar-ring: 43 74% 49%;
+    --sidebar-ring: 36 85% 60%;
   }
 }
 

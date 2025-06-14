@@ -1,16 +1,17 @@
+
 import { Card, CardTitle, CardDescription } from '@/components/ui/card';
 import Image from 'next/image';
 import type { FC } from 'react';
 
 const features = [
   {
-    imageSrc: 'https://www.freepik.com/free-photo/3d-vertical-background-with-abstract-style_57314244.htm#fromView=keyword&page=1&position=0&uuid=5cf2f460-2dcb-40fd-b0a8-0d7d3964a5af&query=3d+Abstract+Shapes',
+    imageSrc: 'https://placehold.co/400x200.png',
     imageHint: 'abstract geometry',
     title: 'One AI, All Your Brands',
     description: "No more siloed chats or tabs. NORA unifies the shopping journey across fashion, tech, food, and more. E.g., 'Hey NORA, I need a pink sofa from IKEA and then compare TVs.'",
   },
   {
-    imageSrc: 'https://www.freepik.com/free-photo/gradient-pink-diamond-geometric-shapes-arrangement_33137490.htm#fromView=keyword&page=1&position=9&uuid=5cf2f460-2dcb-40fd-b0a8-0d7d3964a5af&query=3d+Abstract+Shapes',
+    imageSrc: 'https://placehold.co/400x200.png',
     imageHint: 'abstract geometry',
     title: 'Always-On, Always-Personal',
     description: 'She remembers your preferences, understands your needs, and helps you make better choices—every time. From first purchase to follow-up support, NORA sticks with you.',
@@ -64,3 +65,4 @@ const FeaturesSection: FC = () => {
 };
 
 export default FeaturesSection;
+

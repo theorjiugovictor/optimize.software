@@ -8,13 +8,14 @@ const HeroSection: FC = () => {
   return (
     <section id="product" className="min-h-screen flex items-center pt-24 pb-12 md:pt-32 md:pb-20 bg-gradient-to-br from-background to-card">
       <div className="container mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
-        <div className="relative aspect-video md:aspect-[4/3] max-w-xl mx-auto md:mx-0 rounded-xl overflow-hidden shadow-2xl animate-fadeIn">
+        <div className="relative aspect-square max-w-lg mx-auto md:mx-0 rounded-xl overflow-hidden shadow-2xl animate-fadeIn">
           <Image
-            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3Qgd2lkdGg9IjUwIiBoZWlnaHQ9IjUwIiBmaWxsPSIjZjBhYzQ0Ii8+PC9zdmc+"
+            src="https://placehold.co/600x600.png"
             alt="NORA: NextGen Omni-Retail Assistant providing seamless, intelligent shopping experiences"
             layout="fill"
             objectFit="cover"
             priority
+            data-ai-hint="abstract 3d"
             className="rounded-xl"
           />
         </div>
@@ -23,7 +24,7 @@ const HeroSection: FC = () => {
             NORA: NextGen<span className="text-primary">Omni-Retail</span> Assistant
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground mb-10">
-            NORA is more than a shopping assistant; it's a fundamental shift in how people discover, decide, and engage with brands throughout their digital lives. Seamlessly integrated into WhatsApp, Messenger, and your browser. No new apps, no friction, just intelligent, effortless shopping.
+            NORA is a revolutionary AI changing how we interact, discover, and decide. Seamlessly integrated into the platforms you already use, like WhatsApp and Messenger. Experience intelligent shopping without new apps or friction.
           </p>
           <Button asChild size="lg" className="rounded-full px-10 py-6 text-lg btn-primary-hover">
             <Link href="#get-started">Get Started</Link>
@@ -35,3 +36,4 @@ const HeroSection: FC = () => {
 };
 
 export default HeroSection;
+

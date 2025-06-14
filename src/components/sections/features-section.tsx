@@ -5,21 +5,21 @@ import type { FC } from 'react';
 const features = [
   {
     imageSrc: 'https://placehold.co/400x200.png',
-    imageHint: 'abstract shapes',
-    title: 'Unified Brand Access',
-    description: 'Engage with multiple brands through a single, intelligent conversational interface.',
+    imageHint: 'unified communication',
+    title: 'One AI, All Your Brands',
+    description: "No more siloed chats or tabs. NORA unifies the shopping journey across fashion, tech, food, and more. E.g., 'Hey NORA, I need a pink sofa from IKEA and then compare TVs.'",
   },
   {
     imageSrc: 'https://placehold.co/400x200.png',
-    imageHint: 'abstract orb',
-    title: 'Personalized Assistance',
-    description: 'Receive smart product suggestions, style advice, and enjoy voice interactions.',
+    imageHint: 'personalized experience',
+    title: 'Always-On, Always-Personal',
+    description: 'She remembers your preferences, understands your needs, and helps you make better choices—every time. From first purchase to follow-up support, NORA sticks with you.',
   },
   {
     imageSrc: 'https://placehold.co/400x200.png',
-    imageHint: 'abstract wave',
-    title: 'Platform Integration',
-    description: 'Seamlessly connect NORA with popular platforms like WhatsApp and Messenger.',
+    imageHint: 'platform integration',
+    title: 'Seamless & Instant',
+    description: 'NORA works inside platforms you already use—no app fatigue. Experience full voice interaction, smart suggestions, and frictionless checkout via Apple Pay, Google Pay, or Swish in under 5 minutes.',
   },
 ];
 
@@ -33,7 +33,7 @@ const FeaturesSection: FC = () => {
             Key <span className="text-primary">Features</span> and Benefits
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Discover how NORA's innovative features simplify shopping and enhance customer engagement.
+            Explore how NORA's powerful capabilities simplify everyday commerce for users and create new opportunities for businesses.
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-8">
@@ -49,9 +49,9 @@ const FeaturesSection: FC = () => {
                   data-ai-hint={feature.imageHint}
                 />
               </div>
-              <div className="p-6">
+              <div className="p-6 flex-grow flex flex-col">
                 <CardTitle className="font-headline text-xl mb-2 group-hover:text-primary transition-colors">{feature.title}</CardTitle>
-                <CardDescription className="text-muted-foreground text-base leading-relaxed">
+                <CardDescription className="text-muted-foreground text-base leading-relaxed flex-grow">
                   {feature.description}
                 </CardDescription>
               </div>

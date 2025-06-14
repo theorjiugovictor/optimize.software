@@ -1,4 +1,4 @@
-import { Card, CardTitle } from '@/components/ui/card'; // CardContent removed as p is used directly
+import { Card, CardTitle } from '@/components/ui/card';
 import { Cpu, SearchCode, LineChart } from 'lucide-react';
 import type { FC } from 'react';
 
@@ -6,17 +6,17 @@ const benefits = [
   {
     icon: <Cpu className="w-10 h-10 text-primary mb-4" />,
     title: 'Plug-and-Play AI Infrastructure',
-    description: "Easily integrate NORA's advanced AI capabilities into your existing systems with minimal setup."
+    description: "Instantly offer a premium AI experience without the R&D. No need to build your own AI; plug into NORA's shared smart assistant."
   },
   {
-    icon: <SearchCode className="w-10 h-10 text-primary mb-4" />, // Or Share2 / GitFork for a 'network' feel
-    title: 'Native Brand Discovery',
-    description: "Enable customers to discover and interact with your brand organically within their favorite messaging apps."
+    icon: <SearchCode className="w-10 h-10 text-primary mb-4" />,
+    title: 'Native Brand Discovery & Engagement',
+    description: "Your products surface organically when users ask related questions. Engage customers on their preferred messaging apps, eliminating friction."
   },
   {
     icon: <LineChart className="w-10 h-10 text-primary mb-4" />,
-    title: 'Insights-Driven Operations',
-    description: "Gain valuable customer insights and data analytics to optimize strategies and drive growth."
+    title: 'Rich Insights & Lean Operations',
+    description: "Gain anonymized behavioral data to understand customer needs. Reduce support costs with automated, intelligent conversations for leaner operations."
   },
 ];
 
@@ -30,7 +30,7 @@ const BusinessBenefitsSection: FC = () => {
             Empowering Your <span className="text-primary">Brand</span> with NORA
           </h2>
            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            NORA is more than a tool; it's a strategic partner for growth, offering tangible benefits to elevate your business.
+            NORA isn't just an assistant; it's a strategic growth partner, offering tangible benefits that elevate your business in the AI-driven era.
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-8">

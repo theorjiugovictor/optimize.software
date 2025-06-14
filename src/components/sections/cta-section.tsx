@@ -10,7 +10,7 @@ const CtaSection: FC = () => {
           Experience the Future with <span className="text-primary">NORA</span>
         </h2>
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10">
-          Ready to revolutionize your retail experience? Explore NORA today and see how OptimizeHk is shaping the future of commerce.
+          NORA isn’t just a tool—it’s a behavioral revolution. For users, it’s the future of intuitive shopping. For brands, it’s plug-and-play AI infrastructure. Ready to join?
         </p>
         <Button asChild size="lg" className="rounded-full px-12 py-7 text-xl btn-primary-hover">
           <Link href="#contact">Get Started Now</Link>

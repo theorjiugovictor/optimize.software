@@ -1,22 +1,22 @@
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
-import { ArrowRightLeft, UsersRound, Clock } from 'lucide-react';
+import { Workflow, Sparkles, SmartphoneNfc } from 'lucide-react';
 import type { FC } from 'react';
 
 const painPoints = [
   {
-    icon: <ArrowRightLeft className="w-10 h-10 text-primary mb-4" />,
-    title: 'Inventory Management',
-    description: 'Track and manage inventory across all sales channels seamlessly.',
+    icon: <Workflow className="w-10 h-10 text-primary mb-4" />,
+    title: 'Fragmented Shopping Journeys',
+    description: "Tired of juggling multiple apps and websites? NORA unifies brand interactions into a single conversation, accessible wherever you are.",
   },
   {
-    icon: <UsersRound className="w-10 h-10 text-primary mb-4" />,
-    title: 'Customer Personalization',
-    description: 'Leverage AI to tailor experiences, provide smart suggestions, and boost loyalty.',
+    icon: <Sparkles className="w-10 h-10 text-primary mb-4" />,
+    title: 'Impersonal & Inefficient Interactions',
+    description: "NORA offers personalized assistance, remembering your preferences and providing smart suggestions. It's fast too – complete voice interactions and checkouts in under 5 minutes.",
   },
   {
-    icon: <Clock className="w-10 h-10 text-primary mb-4" />,
-    title: 'Operational Efficiency',
-    description: 'Streamline operations, automate repetitive tasks, and reduce overhead.',
+    icon: <SmartphoneNfc className="w-10 h-10 text-primary mb-4" />,
+    title: 'App Overload & Friction',
+    description: "No more downloading new apps. NORA lives on platforms you already love, like WhatsApp and Messenger, offering a seamless, zero-friction experience.",
   },
 ];
 
@@ -30,7 +30,7 @@ const PainPointsSection: FC = () => {
             NORA Addresses Key <span className="text-primary">Pain Points</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Omni-retailers face mounting challenges in today's dynamic market. NORA provides AI-powered solutions to overcome these hurdles and unlock new growth opportunities.
+            Traditional retail struggles with fragmented experiences and app fatigue. NORA provides AI-powered solutions to overcome these hurdles, making shopping intuitive and efficient.
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-8">

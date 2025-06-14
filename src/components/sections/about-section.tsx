@@ -8,7 +8,7 @@ const AboutSection: FC = () => {
           About <span className="text-primary">OptimizeHk</span>
         </h2>
         <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-          OptimizeHk is a pioneering startup transforming the omni-retail landscape with AI solutions. We are dedicated to empowering businesses to grow, innovate, and connect with customers in more meaningful ways. Our flagship product, NORA, embodies this mission by revolutionizing how consumers interact with brands.
+          OptimizeHk is a pioneering startup transforming the omni-retail landscape with AI solutions. We are dedicated to empowering businesses to grow, innovate, and connect with customers in more meaningful ways. Our flagship product, NORA, embodies this mission by leading a behavioral revolution in how people discover, decide, and interact with brands across their digital lives.
         </p>
       </div>
     </section>

@@ -20,10 +20,10 @@ const HeroSection: FC = () => {
         </div>
         <div className="text-center md:text-left animate-slideInUp">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-headline mb-6 leading-tight">
-            NORA: The Behavioral <span className="text-primary">Revolution</span> in Shopping
+            NORA: NextGen<span className="text-primary">Omni-Retail</span> Assistant
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground mb-10">
-            Remember how Web 2.0 and the internet changed online interactions, and Amazon redefined purchasing? NORA is here to transform our behavior again. This is more than a shopping assistant; it's a fundamental shift in how people discover, decide, and engage with brands throughout their digital lives. Meet NORA, your Next-Gen Omni Retail Assistant—an AI seamlessly integrated into WhatsApp, Messenger, and your browser. No new apps, no friction, just intelligent, effortless shopping.
+            NORA is more than a shopping assistant; it's a fundamental shift in how people discover, decide, and engage with brands throughout their digital lives. Seamlessly integrated into WhatsApp, Messenger, and your browser. No new apps, no friction, just intelligent, effortless shopping.
           </p>
           <Button asChild size="lg" className="rounded-full px-10 py-6 text-lg btn-primary-hover">
             <Link href="#get-started">Get Started</Link>

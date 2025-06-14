@@ -42,7 +42,7 @@ const generateImageFlow = ai.defineFlow(
   },
   async (input: GenerateImageInput) => {
     const {media} = await ai.generate({
-      model: 'googleai/gemini-2.0-flash-exp', // IMPORTANT: Only this model supports image generation currently
+      model: 'googleai/gemini-2.0-flash-preview-image-generation', // Updated model for higher quota
       prompt: input.prompt,
       config: {
         responseModalities: ['TEXT', 'IMAGE'], // Must include TEXT and IMAGE

@@ -4,33 +4,33 @@
 
 @layer base {
   :root {
-    --background: 47 26% 10%; /* #201c13 */
-    --foreground: 75 8% 88%;  /* #E1E3E0 */
+    --background: 220 13% 10%; /* #181A1D - Very dark blue/grey */
+    --foreground: 0 0% 93%;  /* #EDEDED - Light grey/off-white */
 
-    --card: 47 20% 13%;        /* #28231A */
-    --card-foreground: 75 8% 88%;
+    --card: 220 10% 15%;        /* #212429 - Darker grey for cards */
+    --card-foreground: 0 0% 93%; /* #EDEDED */
 
-    --popover: 47 20% 13%;
-    --popover-foreground: 75 8% 88%;
+    --popover: 220 10% 15%;
+    --popover-foreground: 0 0% 93%;
 
-    --primary: 47 68% 47%;    /* #cca324 */
-    --primary-foreground: 47 26% 10%; /* #201c13 for text on primary buttons */
+    --primary: 43 74% 49%;    /* #E4B33D - Gold/Yellow */
+    --primary-foreground: 220 13% 10%; /* #181A1D - Dark text for primary buttons */
 
-    --secondary: 47 50% 30%; /* A darker shade of gold */
-    --secondary-foreground: 75 8% 88%;
+    --secondary: 43 60% 35%; /* #8C6F2A - A darker shade of gold/brownish */
+    --secondary-foreground: 0 0% 93%;
 
-    --muted: 47 20% 25%;
-    --muted-foreground: 47 5% 52%; /* #8A8780 */
+    --muted: 220 10% 25%; /* #383B42 */
+    --muted-foreground: 220 5% 65%; /* #9FA3AB */
 
-    --accent: 47 65% 62%;      /* #E0C35B - Lighter yellow for highlights/hovers */
-    --accent-foreground: 47 26% 10%; /* Dark text on accent */
+    --accent: 43 74% 59%;      /* #EAC562 - Lighter gold for highlights/hovers */
+    --accent-foreground: 220 13% 10%; /* Dark text on accent */
 
-    --destructive: 0 72% 51%; /* Adjusted for dark theme visibility */
-    --destructive-foreground: 0 0% 98%;
+    --destructive: 0 63% 51%; /* #D93B3B */
+    --destructive-foreground: 0 0% 98%; /* #FAFAFA */
 
-    --border: 47 19% 19%;      /* #3A3326 */
-    --input: 47 20% 15%;        /* #2D281F */
-    --ring: 47 68% 47%;        /* Primary color for focus ring */
+    --border: 220 10% 20%;      /* #2B2E33 */
+    --input: 220 10% 18%;        /* #26292E - Darker input background */
+    --ring: 43 74% 49%;        /* Primary color for focus ring */
 
     --radius: 0.75rem; /* Rounded corners */
 
@@ -41,17 +41,15 @@
     --chart-5: 27 87% 67%;
 
     /* Sidebar variables (can keep defaults or adjust if sidebar is used) */
-    --sidebar-background: 47 26% 11%;
-    --sidebar-foreground: 75 8% 88%;
-    --sidebar-primary: 47 68% 47%;
-    --sidebar-primary-foreground: 47 26% 10%;
-    --sidebar-accent: 47 65% 62%;
-    --sidebar-accent-foreground: 47 26% 10%;
-    --sidebar-border: 47 19% 19%;
-    --sidebar-ring: 47 68% 47%;
+    --sidebar-background: 220 13% 11%;
+    --sidebar-foreground: 0 0% 93%;
+    --sidebar-primary: 43 74% 49%;
+    --sidebar-primary-foreground: 220 13% 10%;
+    --sidebar-accent: 43 74% 59%;
+    --sidebar-accent-foreground: 220 13% 10%;
+    --sidebar-border: 220 10% 20%;
+    --sidebar-ring: 43 74% 49%;
   }
-
-  /* No .dark class needed as the whole site is dark themed per request */
 }
 
 @layer base {
@@ -60,12 +58,15 @@
   }
   body {
     @apply bg-background text-foreground;
-    /* font-family will be applied via tailwind config and .font-body class in layout.tsx */
   }
 
-  /* Custom button hover effect using accent color */
   .btn-primary-hover:hover {
     background-color: hsl(var(--accent));
     color: hsl(var(--accent-foreground));
   }
 }
+
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+.animate-fadeIn { animation: fadeIn 1s ease-out forwards; }
+@keyframes slideInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+.animate-slideInUp { animation: slideInUp 0.8s ease-out forwards; animation-delay: 0.2s; }

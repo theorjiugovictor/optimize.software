@@ -7,13 +7,14 @@ const HeroSection: FC = () => {
   return (
     <section id="product" className="min-h-screen flex items-center pt-24 pb-12 md:pt-32 md:pb-20 bg-gradient-to-br from-background to-card">
       <div className="container mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
-        <div className="relative aspect-square max-w-lg mx-auto md:mx-0 rounded-xl overflow-hidden shadow-2xl animate-fadeIn" data-ai-hint="abstract 3d">
+        <div className="relative aspect-video md:aspect-[4/3] max-w-xl mx-auto md:mx-0 rounded-xl overflow-hidden shadow-2xl animate-fadeIn" data-ai-hint="abstract 3d shapes">
           <Image
-            src="https://placehold.co/600x600.png"
+            src="https://placehold.co/600x400.png"
             alt="Abstract 3D Art for NORA"
             layout="fill"
             objectFit="cover"
             priority
+            className="rounded-xl"
           />
         </div>
         <div className="text-center md:text-left animate-slideInUp">
@@ -33,9 +34,3 @@ const HeroSection: FC = () => {
 };
 
 export default HeroSection;
-
-// Add some basic animations to globals.css if not present
-// @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-// .animate-fadeIn { animation: fadeIn 1s ease-out forwards; }
-// @keyframes slideInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
-// .animate-slideInUp { animation: slideInUp 0.8s ease-out forwards; animation-delay: 0.2s; }

@@ -5,19 +5,19 @@ import type { FC } from 'react';
 const features = [
   {
     imageSrc: 'https://placehold.co/400x200.png',
-    imageHint: 'unified communication',
+    imageHint: 'abstract geometry',
     title: 'One AI, All Your Brands',
     description: "No more siloed chats or tabs. NORA unifies the shopping journey across fashion, tech, food, and more. E.g., 'Hey NORA, I need a pink sofa from IKEA and then compare TVs.'",
   },
   {
     imageSrc: 'https://placehold.co/400x200.png',
-    imageHint: 'personalized experience',
+    imageHint: 'abstract geometry',
     title: 'Always-On, Always-Personal',
     description: 'She remembers your preferences, understands your needs, and helps you make better choices—every time. From first purchase to follow-up support, NORA sticks with you.',
   },
   {
     imageSrc: 'https://placehold.co/400x200.png',
-    imageHint: 'platform integration',
+    imageHint: 'abstract geometry',
     title: 'Seamless & Instant',
     description: 'NORA works inside platforms you already use—no app fatigue. Experience full voice interaction, smart suggestions, and frictionless checkout via Apple Pay, Google Pay, or Swish in under 5 minutes.',
   },

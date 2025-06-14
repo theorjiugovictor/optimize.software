@@ -2,7 +2,7 @@ import { Card, CardTitle } from '@/components/ui/card';
 import { Cpu, SearchCode, LineChart } from 'lucide-react';
 import type { FC } from 'react';
 
-const benefits = [
+const benefits = [ 
   {
     icon: <Cpu className="w-10 h-10 text-primary mb-4" />,
     title: 'Plug-and-Play AI Infrastructure',

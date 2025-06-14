@@ -11,7 +11,7 @@ const HeroSection: FC = () => {
         <div className="relative aspect-video md:aspect-[4/3] max-w-xl mx-auto md:mx-0 rounded-xl overflow-hidden shadow-2xl animate-fadeIn">
           <Image
             src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3Qgd2lkdGg9IjUwIiBoZWlnaHQ9IjUwIiBmaWxsPSIjZjBhYzQ0Ii8+PC9zdmc+"
-            alt="NORA - AI Powered Omni-Retail Assistant"
+            alt="NORA: NextGen Omni-Retail Assistant providing seamless, intelligent shopping experiences"
             layout="fill"
             objectFit="cover"
             priority

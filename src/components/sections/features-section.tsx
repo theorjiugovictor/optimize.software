@@ -5,7 +5,7 @@ import type { FC } from 'react';
 
 const features = [
   {
-    imageSrc: 'https://placehold.co/400x200.png',
+    imageSrc: 'https://lh3.googleusercontent.com/p/AF1QipN-6C4_E6z5P7B7B7B7B7B7B7B7B7B7B7B7B7B7=s600-c',
     aiHint: 'abstract geometry',
     title: 'One AI, All Your Brands',
     description: "No more siloed chats or tabs. NORA unifies the shopping journey across fashion, tech, food, and more. E.g., 'Hey NORA, I need a pink sofa from IKEA and then compare TVs.'",
@@ -41,7 +41,7 @@ const FeaturesSection: FC = () => {
           {features.map((feature, index) => (
             <Card key={index} className="group bg-card shadow-lg hover:shadow-primary/20 transition-all duration-300 rounded-xl flex flex-col items-start overflow-hidden">
               <div className="relative w-full h-40 md:h-48">
-                <Image
+ <Image
                   src={feature.imageSrc}
                   alt={feature.title}
                   layout="fill"

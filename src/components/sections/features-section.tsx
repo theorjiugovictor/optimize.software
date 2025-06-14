@@ -5,7 +5,7 @@ import type { FC } from 'react';
 
 const features = [
   {
-    imageSrc: 'https://lh3.googleusercontent.com/p/AF1QipN-6C4_E6z5P7B7B7B7B7B7B7B7B7B7B7B7B7B7=s600-c',
+    imageSrc: 'https://placehold.co/400x200.png',
     aiHint: 'abstract geometry',
     title: 'One AI, All Your Brands',
     description: "No more siloed chats or tabs. NORA unifies the shopping journey across fashion, tech, food, and more. E.g., 'Hey NORA, I need a pink sofa from IKEA and then compare TVs.'",
